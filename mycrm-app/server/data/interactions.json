@@ -1,0 +1,58 @@
+[
+  {
+    "id": "i1",
+    "type": "email",
+    "date": "2026-03-22T10:00:00.000Z",
+    "summary": "Sent revised proposal. Sarah confirmed she's taking it to the exec team this week.",
+    "linked_contact": "c1",
+    "linked_opportunity": "o1"
+  },
+  {
+    "id": "i2",
+    "type": "meeting",
+    "date": "2026-03-15T14:00:00.000Z",
+    "summary": "45-min discovery call. Aligned on scope. Sarah wants monthly retainer, not project-based.",
+    "linked_contact": "c1",
+    "linked_opportunity": "o1"
+  },
+  {
+    "id": "i3",
+    "type": "email",
+    "date": "2026-03-05T14:00:00.000Z",
+    "summary": "Sent proposal for content strategy project. $3,500 flat. Waiting on response.",
+    "linked_contact": "c2",
+    "linked_opportunity": "o2"
+  },
+  {
+    "id": "i4",
+    "type": "DM",
+    "date": "2026-02-20T11:00:00.000Z",
+    "summary": "LinkedIn DM. Derek confirmed interest, asked for a one-pager.",
+    "linked_contact": "c2",
+    "linked_opportunity": "o2"
+  },
+  {
+    "id": "i5",
+    "type": "meeting",
+    "date": "2026-02-01T09:00:00.000Z",
+    "summary": "Coffee at SaaStr. Priya interested in messaging audit but said reach out in March.",
+    "linked_contact": "c3",
+    "linked_opportunity": "o3"
+  },
+  {
+    "id": "i6",
+    "type": "call",
+    "date": "2026-03-23T08:00:00.000Z",
+    "summary": "Quick call with Marcus. He wants to collab on a fintech brand project. Needs scope this week.",
+    "linked_contact": "c4",
+    "linked_opportunity": "o5"
+  },
+  {
+    "id": "i7",
+    "type": "DM",
+    "date": "2026-03-10T11:00:00.000Z",
+    "summary": "Jordan replied to Twitter thread. Asked how I approach content strategy for B2B SaaS.",
+    "linked_contact": "c6",
+    "linked_opportunity": "o4"
+  }
+]

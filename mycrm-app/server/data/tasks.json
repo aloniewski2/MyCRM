@@ -1,0 +1,62 @@
+[
+  {
+    "id": "t1",
+    "title": "Send revised scope doc to Sarah Chen",
+    "due_date": "2026-03-25T00:00:00.000Z",
+    "priority": "high",
+    "linked_contact": "c1",
+    "linked_opportunity": "o1",
+    "status": "open",
+    "created_at": "2026-03-22T10:00:00.000Z"
+  },
+  {
+    "id": "t2",
+    "title": "Follow up with Derek Walsh on proposal",
+    "due_date": "2026-03-24T00:00:00.000Z",
+    "priority": "high",
+    "linked_contact": "c2",
+    "linked_opportunity": "o2",
+    "status": "open",
+    "created_at": "2026-03-10T09:00:00.000Z"
+  },
+  {
+    "id": "t3",
+    "title": "Re-engage Priya Nair — it's been 51 days",
+    "due_date": "2026-03-20T00:00:00.000Z",
+    "priority": "medium",
+    "linked_contact": "c3",
+    "linked_opportunity": "o3",
+    "status": "done",
+    "created_at": "2026-03-01T09:00:00.000Z"
+  },
+  {
+    "id": "t4",
+    "title": "Send Marcus scope + rev-share outline",
+    "due_date": "2026-03-26T00:00:00.000Z",
+    "priority": "medium",
+    "linked_contact": "c4",
+    "linked_opportunity": "o5",
+    "status": "open",
+    "created_at": "2026-03-23T08:00:00.000Z"
+  },
+  {
+    "id": "t5",
+    "title": "Book discovery call with Jordan Bell",
+    "due_date": "2026-03-27T00:00:00.000Z",
+    "priority": "medium",
+    "linked_contact": "c6",
+    "linked_opportunity": "o4",
+    "status": "open",
+    "created_at": "2026-03-10T11:00:00.000Z"
+  },
+  {
+    "id": "t6",
+    "title": "Ping Lena Fischer — check in on advisory angle",
+    "due_date": "2026-03-28T00:00:00.000Z",
+    "priority": "low",
+    "linked_contact": "c5",
+    "linked_opportunity": null,
+    "status": "open",
+    "created_at": "2026-03-01T09:00:00.000Z"
+  }
+]

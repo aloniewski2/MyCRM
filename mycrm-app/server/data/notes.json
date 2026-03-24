@@ -1,0 +1,20 @@
+[
+  {
+    "id": "n1",
+    "body": "Sarah mentioned their current agency is slow on deliverables. Opportunity to position on speed + quality.",
+    "date": "2026-03-15T14:00:00.000Z",
+    "linked_contact": "c1"
+  },
+  {
+    "id": "n2",
+    "body": "Derek is bootstrapped — price sensitivity real. Consider a phased payment option in next proposal.",
+    "date": "2026-02-20T11:00:00.000Z",
+    "linked_contact": "c2"
+  },
+  {
+    "id": "n3",
+    "body": "Priya specifically said she needed someone who understood PLG motion. Lead with that angle.",
+    "date": "2026-02-01T09:00:00.000Z",
+    "linked_contact": "c3"
+  }
+]

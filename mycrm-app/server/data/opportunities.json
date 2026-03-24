@@ -1,0 +1,62 @@
+[
+  {
+    "id": "o1",
+    "title": "Brand Strategy Retainer — Apex Media",
+    "type": "retainer",
+    "estimated_value": 6000,
+    "stage": "in conversation",
+    "linked_contact": "c1",
+    "next_action": "Send revised scope doc",
+    "deadline": "2026-04-01T00:00:00.000Z",
+    "last_activity": "2026-03-22T10:00:00.000Z",
+    "created_at": "2026-02-15T09:00:00.000Z"
+  },
+  {
+    "id": "o2",
+    "title": "Content Strategy — Foundry Labs",
+    "type": "project",
+    "estimated_value": 3500,
+    "stage": "proposal sent",
+    "linked_contact": "c2",
+    "next_action": "Follow up on proposal — no reply in 5 days",
+    "deadline": "2026-03-28T00:00:00.000Z",
+    "last_activity": "2026-03-05T14:00:00.000Z",
+    "created_at": "2026-02-20T09:00:00.000Z"
+  },
+  {
+    "id": "o3",
+    "title": "Product Messaging Audit — Stackwise",
+    "type": "project",
+    "estimated_value": 4200,
+    "stage": "prospect",
+    "linked_contact": "c3",
+    "next_action": "Re-engage Priya — she's gone cold",
+    "deadline": "2026-04-15T00:00:00.000Z",
+    "last_activity": "2026-02-01T09:00:00.000Z",
+    "created_at": "2026-01-28T09:00:00.000Z"
+  },
+  {
+    "id": "o4",
+    "title": "Brand Campaign — Clearline SaaS",
+    "type": "project",
+    "estimated_value": 5500,
+    "stage": "in conversation",
+    "linked_contact": "c6",
+    "next_action": "Schedule discovery call",
+    "deadline": "2026-04-10T00:00:00.000Z",
+    "last_activity": "2026-03-10T11:00:00.000Z",
+    "created_at": "2026-03-01T09:00:00.000Z"
+  },
+  {
+    "id": "o5",
+    "title": "Volt Studio Collab — Marcus",
+    "type": "partnership",
+    "estimated_value": 2000,
+    "stage": "prospect",
+    "linked_contact": "c4",
+    "next_action": "Agree on scope and rev-share structure",
+    "deadline": "2026-04-30T00:00:00.000Z",
+    "last_activity": "2026-03-23T08:00:00.000Z",
+    "created_at": "2026-03-10T09:00:00.000Z"
+  }
+]

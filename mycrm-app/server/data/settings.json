@@ -1,0 +1,17 @@
+{
+  "ollama": {
+    "base_url": "http://localhost:11434",
+    "model": "llama3.2"
+  },
+  "imap": {
+    "host": "",
+    "port": 993,
+    "secure": true,
+    "email": "",
+    "password": ""
+  },
+  "notifications": {
+    "browser_enabled": false,
+    "daily_digest_time": "08:00"
+  }
+}
