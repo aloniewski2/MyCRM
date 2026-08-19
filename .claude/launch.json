@@ -1,0 +1,17 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "crm-api",
+      "runtimeExecutable": "/usr/local/bin/node",
+      "runtimeArgs": ["mycrm-app/server/index.js"],
+      "port": 3001
+    },
+    {
+      "name": "crm-frontend",
+      "runtimeExecutable": "/bin/bash",
+      "runtimeArgs": ["start-frontend.sh"],
+      "port": 5173
+    }
+  ]
+}

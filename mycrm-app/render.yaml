@@ -1,0 +1,28 @@
+# Render blueprint — https://render.com/docs/blueprint-spec
+#
+# Deploy: Render dashboard -> New -> Blueprint -> pick this repo,
+# then set the root directory to mycrm-app.
+services:
+  - type: web
+    name: mycrm
+    runtime: node
+    plan: free
+    rootDir: mycrm-app
+    buildCommand: npm install && npm run build
+    startCommand: node server/index.js
+    healthCheckPath: /api/contacts
+    envVars:
+      - key: NODE_VERSION
+        value: "20"
+      # Every integration is optional — the CRM runs without any of them and
+      # switches each on when its credentials are present.
+      - key: ANTHROPIC_API_KEY
+        sync: false
+      - key: GOOGLE_CLIENT_ID
+        sync: false
+      - key: GOOGLE_CLIENT_SECRET
+        sync: false
+      - key: NOTION_TOKEN
+        sync: false
+      - key: SLACK_WEBHOOK_URL
+        sync: false

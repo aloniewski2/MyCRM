@@ -11,6 +11,9 @@ import settingsRouter, { readSettings } from './routes/settings.js'
 import draftRouter from './routes/draft.js'
 import emailRouter from './routes/email.js'
 import notificationsRouter from './routes/notifications.js'
+import path from 'node:path'
+import fs from 'node:fs'
+import { fileURLToPath } from 'node:url'
 
 const app = express()
 app.use(cors())
@@ -27,7 +30,17 @@ app.use('/api/draft', draftRouter)
 app.use('/api/email', emailRouter)
 app.use('/api/notifications', notificationsRouter)
 
-const PORT = 3001
-app.listen(PORT, () => {
-  console.log(`CRM API running on http://localhost:${PORT}`)
+// In production the API also serves the built client, so the whole app is one
+// service on one port instead of two deploys and a CORS problem.
+const clientDist = path.join(path.dirname(fileURLToPath(import.meta.url)), '..', 'dist')
+if (fs.existsSync(clientDist)) {
+  app.use(express.static(clientDist))
+  app.get(/^(?!\/api).*/, (_req, res) => res.sendFile(path.join(clientDist, 'index.html')))
+}
+
+// Hosts assign the port at runtime and expect a bind on 0.0.0.0; a hardcoded
+// localhost:3001 works on a laptop and is unreachable in a container.
+const PORT = process.env.PORT || 3001
+app.listen(PORT, '0.0.0.0', () => {
+  console.log(`CRM API running on port ${PORT}`)
 })
